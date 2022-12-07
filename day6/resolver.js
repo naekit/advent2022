@@ -1,8 +1,7 @@
 const data = require('./data')
 
-
 let i = 0
-let charLeng = false
+let charLength = false
 do {
     let charArr = []
     for(let j = i; j < i + 14; j++){
@@ -15,4 +14,4 @@ do {
         charLeng = true
     }
     i++
-} while (!charLeng);
+} while (!charLength);
