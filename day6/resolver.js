@@ -11,7 +11,7 @@ do {
 
     if([...charSet].length === 14){
         console.log(i + 14)
-        charLeng = true
+        charLength = true
     }
     i++
 } while (!charLength);

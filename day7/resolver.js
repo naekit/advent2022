@@ -1,3 +1,4 @@
+// solved with gpt 3 ://
 const data = require('./data')
 
 const dataArr = data.split('\n')
@@ -18,5 +19,3 @@ let filenameArr = [...fileNames]
 for(let i = 0; i < filenameArr.length; i++){
     console.log(dataArr.indexOf(filenameArr[i]))
 }
-
-// solved with gpt 3 ://
